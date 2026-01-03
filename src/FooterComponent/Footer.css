@@ -1,0 +1,175 @@
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-page {
+    position: sticky;
+    background: #25002F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.slogan {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+.company {
+    margin-top: 3vh;
+    margin-left: 0;
+    text-align: center;
+}
+
+.social {
+    padding-right: 20px;
+    text-align: center;
+}
+
+.socialLink>i {
+    padding-right: 20px;
+}
+
+.image {
+    width: 65vw;
+    height: 25vh;
+}
+
+.Footer {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+.Footer i{
+    font-size: 10px;
+}
+
+.Footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Footer li {
+    margin-top: 10px;
+   
+}
+.learn-more{
+    color: bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.Footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 2vh;
+
+    border-radius: 8px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.Footer a:hover {
+    color: bisque;
+}
+
+.follow {
+    color: bisque;
+    margin-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bi-facebook {
+    color: #2257c9;
+    transition: background-image 0.3s ease;
+}
+
+.bi-instagram {
+    font-size: 30px; /* Adjusted size */
+    color: #262626;
+    background-image: linear-gradient(45deg, #833AB4, #E4405F, #FCAF45, #4C68D7);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-image 0.3s ease;
+}
+
+.bi-twitter-x {
+    color: white;
+    background: transparent;
+}
+
+.bi-youtube {
+    color: #FF0000;
+}
+.bi-bar-chart-steps{
+    font-size: 50px;
+    color: bisque;
+}
+.name{
+
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.socialLink a{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .footer-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .image {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    .socialLink>i {
+        padding-right: 15px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .footer-flex {
+        padding: 0 60px;
+    }
+
+    .image {
+        width: 12vw;
+        height: 12vh;
+    }
+
+    .socialLink>i {
+        padding-right: 20px;
+    }
+
+    .bi-instagram {
+        font-size: 40px; 
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .footer-flex {
+        padding: 0 100px;
+    }
+
+    .image {
+        width: 10vw;
+        height: 10vh;
+    }
+}

@@ -1,0 +1,71 @@
+.AboutUs-page {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.abttit {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+p {
+    color: black;
+}
+.whoweare, .Vision, .Mission, .chooseus, .Joinus {
+    margin-right: 0;
+    margin-top: 5vh;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+@media (min-width: 600px) {
+    .AboutUs-page {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .whoarewe, .Vision, .Mission, .chooseus, .Joinus {
+        margin-right: 15vw;
+        margin-top: 8vh;
+        text-align: left;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+@media (max-width: 770px) {
+    .whoarewe, .Vision, .Mission, .chooseus, .Joinus {
+        margin-right: 0vh;
+        margin-top: 10vh;
+        text-align: left;
+    }
+}
+@media (min-width: 1024px) {
+    .AboutUs-page {
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+    .whoarewe, .Vision, .Mission, .chooseus, .Joinus {
+        margin-right: 5vh;
+        margin-top: 10vh;
+        text-align: left;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
+@media (min-width: 1440px) {
+    .AboutUs-page {
+        padding-left: 15vh;
+        padding-right: 5vh;
+    }
+    .whoarewe, .Vision, .Mission, .chooseus, .Joinus {
+        margin-right: 5vh;
+    }
+    h1 {
+        font-size: 32px;
+    }
+}
